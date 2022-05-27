@@ -1,0 +1,22 @@
+@charset  "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 50vh;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: hsl(0, 0%, 2%);
+    height: 50vh;
+}
+footer{
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+}
