@@ -4,34 +4,194 @@
     margin: 0;
     padding: 0;
 }
+
+@font-face {
+    font-family:'Big Shoulders Display' ;
+    src: url('font/Big/BigShouldersDisplay-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Outfit' ;
+    src: url('font/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+
 html{
     font-size: 50.5%;
 }
 header{
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: row;
+    margin-bottom: 30rem;
 }
-header #one{
-    background-color: hsl(0, 0%, 2%);
-    width: 30rem;
-    
+ .area-1{
+    background-color: rgba(38, 32, 32, 0.527);
+    width: 32.1vw;
+    height: 79.1vh;
 }
+ .area-1 h1{
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-size: 10rem;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    left: 48%;
+    top: 27%;
+}
+.txt{
+    z-index: 2;
+    color: rgba(38, 32, 32, 0.527);
+    width: 51rem;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem; 
+    font-family:'Outfit';
+}
+.txt-header{
+    position: relative;
+    left: -4rem;
+    top: 37%;
+}
+.link-area a{
+    background-color: hsl(0, 0%, 83%);
+    text-decoration: none;
+    color: black;
+    font-size: 3.1rem;
+    padding: 0.6rem;
+    font-family: 'Big Shoulders Display';
+   
+}
+
 header img{
-    height: 50rem;
+    height: 80.96rem;
 }
-header #three{
-    background-color: white;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 main{
     height: 100vh;
+    padding: 3rem;
+    margin: auto 32rem 23rem;
 }
+.line1-hori{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+   
+}
+.line1-hori img{
+    width: 60rem;
+}
+
+
+.line-2-c{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#img-int img{
+    width: 400px;
+    height: 550px; 
+    margin-right:3rem ;
+}
+.txt2{
+    width: 30rem;
+    font-size: 2.5rem;
+    padding: 1rem;
+    text-align: left;
+    margin-right: 10.5rem;
+    font-family: 'Big Shoulders Display';
+    font-weight: 600;
+}
+.txt2 h1{
+    width: 20rem;
+}
+.txt2 p{
+    width: 20rem;
+    font-family:'Outfit';
+    font-weight: 300;
+}
+.line3-vert img{
+  width: 50rem;
+}
+.txt3{
+    width: 45rem;
+    font-size: 2.5rem;
+    background-color: black;
+    color: white;
+    padding: 5rem 2.5rem 0rem 2.5rem ;
+    text-align: left;
+    height: 27.5rem;
+    margin-top: 2rem;
+    font-family: 'Big Shoulders Display';
+    font-weight: 600;
+}
+.txt3 p{
+    width: 20rem;
+    font-family:'Outfit';
+    font-weight: 300;
+}
+
+
+
+
+
+
 footer{
-    
-     height: 30vh;
-     display: flex;
-     flex-direction: row;
-     background-color: hsl(0, 0%, 2%);
-     color: white;
+   height: 30vh;
+   background-color: rgba(38, 32, 32, 0.527);
+}
+.footer-area{
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 13rem 0 13rem;
+    font-family: 'Big Shoulders Display';
+   
+}
+footer h1{
+    font-size: 5.5rem;
+    width: 19rem;
+}
+
+footer p{
+    font-size: 2.5rem;
+    width: 40rem;
 }
