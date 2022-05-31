@@ -3,8 +3,38 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family:'Big Shoulders Display' ;
+    src: url('font/Big/BigShouldersDisplay-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Outfit' ;
+    src: url('font/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+html{
+    font-size: 50.5%;
+}
+
 header{
-    height: 50vh;
+    height: 72vh;
+    background-image: url(back-image.jpg);
+
+} 
+#btn-link a{
+    background-color: black;
+    text-decoration: none;
+    color:hsl(0, 0%, 83%) ;
+    font-size: 3.1rem;
+    padding: 1.6rem;
+    font-family: 'Big Shoulders Display';
+    position: relative;
+    left: 16rem;
+    top: 3rem;
+}
+#btn-link a:hover{
+    background-color: hsl(0, 0%, 83%);
+    color: black;
 }
 
 main{
@@ -12,11 +42,82 @@ main{
     flex-direction: row;
     color: white;
     background-color: hsl(0, 0%, 2%);
-    height: 50vh;
+    height: 40vh;
+    justify-content: space-between;
+    padding: 11rem 16.5rem;
+
 }
+
+main h1{
+    font-size: 9rem;
+    font-family: 'Big Shoulders Display';
+    width: 34rem;;
+}
+
+.info{
+    font-size: 2rem;
+    font-family: 'Big Shoulders Display';
+    margin-left: 10rem
+}
+main h2{
+    font-size: 6rem;
+    color:hsl(0, 0%, 83%) ;
+}
+main p{
+    margin: 1rem 0 1rem 0;
+    font-size: 3.3rem;
+}
+#outfit{
+    font-family: 'outfit';
+    width: 40rem;
+    font-size: 3rem;
+    margin: 3rem 0 0 0 ;
+    width: 60rem;
+}
+
+/*Footer*/
+
 footer{
     height: 30vh;
-    display: flex;
-    flex-direction: row;
-    background-color: bisque;
-}
+    background-color: hsl(0, 0%, 83%);
+ }
+ .footer-area{
+     height: 30vh;
+     display: flex;
+     flex-direction: row;
+     background-color: hsl(0, 0%, 83%);
+     color: rgba(0, 0, 0, 0.692);
+     justify-content: space-between;
+     align-items: center;
+     padding: 0px 13rem 0 13rem;
+     font-family: 'Big Shoulders Display';
+    
+ }
+ footer h1{
+     font-size: 5.5rem;
+     width: 19rem;
+ }
+ 
+ footer p{
+     font-size: 2.9rem;
+     width: 40rem;
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -33,7 +33,7 @@ header{
     position: relative;
     z-index: 2;
     color: white;
-    font-size: 10rem;
+    font-size: 14rem;
     font-family: 'Big Shoulders Display';
     font-weight: 700;
     left: 48%;
@@ -42,11 +42,11 @@ header{
 .txt{
     z-index: 2;
     color: rgba(38, 32, 32, 0.527);
-    width: 51rem;
+    width: 34rem;
     align-items: center;
-    font-size: 2.5rem;
-    margin-bottom: 2rem; 
-    font-family:'Outfit';
+    font-size: 2.8rem;
+    margin-bottom: 7rem;
+    font-family: 'Outfit';
 }
 .txt-header{
     position: relative;
@@ -60,9 +60,11 @@ header{
     font-size: 3.1rem;
     padding: 0.6rem;
     font-family: 'Big Shoulders Display';
-   
 }
-
+.link-area a:hover{
+    background-color: black;
+    color:hsl(0, 0%, 83%) ;
+}
 header img{
     height: 80.96rem;
 }
@@ -137,12 +139,16 @@ main{
     font-weight: 600;
 }
 .txt2 h1{
-    width: 20rem;
+    width: 22rem;
+    padding-top: 6rem;
+    font-size: 6rem;
 }
 .txt2 p{
-    width: 20rem;
+    width: 38rem;
     font-family:'Outfit';
     font-weight: 300;
+    padding-top: 4rem;
+    color: rgba(0, 0, 0, 0.552);
 }
 .line3-vert img{
   width: 50rem;
@@ -152,17 +158,25 @@ main{
     font-size: 2.5rem;
     background-color: black;
     color: white;
-    padding: 5rem 2.5rem 0rem 2.5rem ;
+    padding: 2rem 2.5rem 3.3rem 2.5rem;
     text-align: left;
     height: 27.5rem;
     margin-top: 2rem;
     font-family: 'Big Shoulders Display';
     font-weight: 600;
 }
+.txt3 h1{
+    padding: 2rem  3rem 0rem 3rem;
+    font-size: 6rem;
+    width: 20rem
+
+}
 .txt3 p{
-    width: 20rem;
+    width: 38rem;
     font-family:'Outfit';
     font-weight: 300;
+    padding: 2rem 3rem 0rem 3rem;
+    font-size: 2.0rem;
 }
 
 
@@ -192,6 +206,7 @@ footer h1{
 }
 
 footer p{
-    font-size: 2.5rem;
+    font-size: 2.9rem;
     width: 40rem;
+
 }
