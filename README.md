@@ -1,2 +1,2 @@
-# gallert-art
+# gallery-art
  
